@@ -57,7 +57,7 @@ let instructorName = "Zach";
 
 // 9.
 // Update the variables `yourName` and `instructorName` so the expression below reads correctly.
-// A:
+// A: See 8
 
 
 // This statement should read correctly
@@ -67,11 +67,11 @@ let statement = yourName + " is taking a class at The Iron Yard, my instructor's
 // 10.
 // We've created a variable named after each primitive type.
 // Use the `=` operator to assign a value to each variable matching the type in the name.
-let myNumber;
-let myString;
-let myBoolean;
+let myNumber = 1;
+let myString = 2;
+let myBoolean = 3;
 // This one's a little tricky - think carefully about what makes a value "undefined"!
-let myUndefined;
+let myUndefined = undefined;
 // A:
 
 
@@ -200,7 +200,7 @@ if ({}) {
 } else {
 	console.log("False!");
 }
-// A:
+// A:True 
 
 
 // 28.
