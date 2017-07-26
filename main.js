@@ -21,7 +21,7 @@ givenName = givenName;
 // 4?
 // What is `greeting` set to?
 let greeting = "Hello, how are you? " + givenName;
-// A:"Hello, how are you>"
+// A:"Hello, how are you? Tim"
 
 
 // 5.
@@ -68,11 +68,11 @@ let statement = yourName + " is taking a class at The Iron Yard, my instructor's
 // We've created a variable named after each primitive type.
 // Use the `=` operator to assign a value to each variable matching the type in the name.
 let myNumber = 1;
-let myString = 2;
-let myBoolean = 3;
+let myString = "2";
+let myBoolean = true;
 // This one's a little tricky - think carefully about what makes a value "undefined"!
 let myUndefined = undefined;
-// A:
+// A:Nothing has been assigned to it. 
 
 
 // For questions 11 - 19: List which boolean value will be stored in each variable. (Remember: `==` does not check data type)
@@ -94,7 +94,7 @@ let z = (0 == "");
 
 // 14.
 let a = (null == null);
-// A.false
+// A.true
 
 
 // 25.
@@ -136,6 +136,7 @@ if (thirsty === true) {
 // For questions 21 - 29 list which statement will be logged.
 
 // 21.
+// A:UNDEFINED
 let x;
 
 if (x) {
@@ -164,7 +165,7 @@ if (x) {
 } else {
 	console.log("False!");
 }
-// A:True 
+// A:False  
 
 
 // 24.
